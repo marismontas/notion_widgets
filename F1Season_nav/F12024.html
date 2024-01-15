@@ -1,1 +1,158 @@
-1
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+	<!-- Google Font -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+	<!-------->
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+
+		.navMenu {
+			font-family: 'Advent Pro', sans-serif;
+			padding: 8px;
+			text-align: center;
+			margin: 7px auto;
+			width: fit-content;
+		}
+
+		.navMenu a {
+			color: #272727;
+			text-decoration: none;
+			text-transform: uppercase;
+			display: inline-block;
+			padding: 6px;
+		}
+
+		.background {
+			background-color: #ece5f0;
+		}
+
+		.border {
+			border: 1px solid #cccccc;
+
+		}
+
+		.navMenu a:hover {
+
+			color: #cabfbf;
+		}
+	</style>
+</head>
+
+<body>
+
+	<nav class="navMenu  border">
+		<a id="Testing" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Testing</a>
+		<a id="Bahrain" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Bahrain</a>
+		<a id="Saudi Arabia" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Saudi Arabia</a>
+		<a id="Australia" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Australia</a>
+		<a id="Japan" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Japan</a>
+		<a id="China" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> China</a>
+		<a id="Miami" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Miami</a>
+		<a id="Emilia-Romagna" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Emilia-Romagna</a>
+		<a id="Monaco" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Monaco</a>
+		<a id="Canada" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Canada</a>
+		<a id="Barcelona" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Barcelona</a>
+		<a id="Austria" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Austria</a>
+		<a id="Silverstone" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Silverstone</a>
+		<a id="Hungary" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Hungary</a>
+		<a id="Belgium" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Belgium</a>
+		<a id="Netherlands" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Netherlands</a>
+		<a id="Monza" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Monza</a>
+		<a id="Azerbaijan" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Azerbaijan</a>
+		<a id="Singapore" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Singapore</a>
+		<a id="Austin" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Austin</a>
+		<a id="Mexico" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Mexico</a>
+		<a id="Brazil" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Brazil</a>
+		<a id="Las Vegas" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Las Vegas</a>
+		<a id="Qatar" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Qatar</a>
+		<a id="Abu Dhabi" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-flag-checkered fa-bounce"></i> Abu Dhabi</a>		
+
+
+	</nav>
+
+
+	<script>
+
+		let direction = "vertical";
+		if (direction === "vertical") {
+			document.head.insertAdjacentHTML("beforeend", `<style>.navMenu a {display: block; text-align:left; margin:7px} i{width:15px; margin-right:5px} .navMenu{margin:3px}</style>`)
+		}
+
+
+		function navigate(id) {
+
+			if (id == 'Testing')
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-ARAMCO-PRE-SEASON-TESTING-2024-15a72981544e4990920dcfdfafeb8568?pvs=4", '_blank').focus();
+			else if (id == "Bahrain")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-GULF-AIR-BAHRAIN-GRAND-PRIX-2024-9ed3027759a0498fa957b11f1f5020e5?pvs=4", '_blank').focus();
+			else if (id == "Saudi Arabia")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-STC-SAUDI-ARABIAN-GRAND-PRIX-2024-e92f5382ba54470e8d746b823f38f968?pvs=4", '_blank').focus();
+			else if (id == "Australia")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-ROLEX-AUSTRALIAN-GRAND-PRIX-2024-66e031ee858a493ea7a9f3c4790ee2dd?pvs=4", '_blank').focus();
+			else if (id == "Japan")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-MSC-CRUISES-JAPANESE-GRAND-PRIX-2024-87ecc00aa8e44da7bd6ffb91d6dffdd2?pvs=4", '_blank').focus();
+			else if (id == "China")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-LENOVO-CHINESE-GRAND-PRIX-2024-e4256a32793b4c7dab528cffcea54f37?pvs=4", '_blank').focus();
+			else if (id == "Miami")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-CRYPTO-COM-MIAMI-GRAND-PRIX-2024-a9c64ef258734937aba8065310b776fe?pvs=4", '_blank').focus();
+			else if (id == "Emilia-Romagna")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-MSC-CRUISES-GRAN-PREMIO-DELL-EMILIA-ROMAGNA-2024-4ebf0d883c0e4833b8f29eb509be0dc8?pvs=4", '_blank').focus();
+			else if (id == "Monaco")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-GRAND-PRIX-DE-MONACO-2024-8ecf3285bb51448bb4069d60ae0b00ce?pvs=4", '_blank').focus();
+			else if (id == "Canada")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-GRAND-PRIX-DU-CANADA-2024-62924e0e8aa64114a639f66baeafd92f?pvs=4", '_blank').focus();
+			else if (id == "Barcelona")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-ARAMCO-GRAN-PREMIO-DE-ESPA-A-2024-985eaae912da41868c30d125164887b6?pvs=4", '_blank').focus();
+			else if (id == "Austria")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-QATAR-AIRWAYS-AUSTRIAN-GRAND-PRIX-2024-7865b4dfad7b4cbaa75bb9f863fb8ea4?pvs=4", '_blank').focus();
+			else if (id == "Silverstone")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-QATAR-AIRWAYS-BRITISH-GRAND-PRIX-2024-41254d56692c461187e2d090acec16be?pvs=4", '_blank').focus();
+			else if (id == "Hungary")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-HUNGARIAN-GRAND-PRIX-2024-793f44cc807547cfa3db23af2ec6a158?pvs=4", '_blank').focus();
+			else if (id == "Belgium")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-ROLEX-BELGIAN-GRAND-PRIX-2024-050730c4500d4fe3b98db951efeda5e7?pvs=4", '_blank').focus();
+			else if (id == "Netherlands")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-HEINEKEN-DUTCH-GRAND-PRIX-2024-8234fb18d5864af4a353d2539eea5e6b?pvs=4", '_blank').focus();
+			else if (id == "Monza")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-PIRELLI-GRAN-PREMIO-D-ITALIA-2024-508220fb40df48afbfd39b2f43b22310?pvs=4", '_blank').focus();
+			else if (id == "Azerbaijan")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-QATAR-AIRWAYS-AZERBAIJAN-GRAND-PRIX-2024-2d2e2d08606a4c3ab61ebdf9030d530b?pvs=4", '_blank').focus();
+			else if (id == "Singapore")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-SINGAPORE-AIRLINES-SINGAPORE-GRAND-PRIX-2024-2a1edc81ed044baab1ae11bbd533f01b?pvs=4", '_blank').focus();
+			else if (id == "Austin")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-PIRELLI-UNITED-STATES-GRAND-PRIX-2024-0456a1c6f267422b8cecbc4a05d53c90?pvs=4", '_blank').focus();
+			else if (id == "Mexico")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-GRAN-PREMIO-DE-LA-CIUDAD-DE-M-XICO-2024-b5af9ac4b1594a45a8b9b3a965e4e4ba?pvs=4", '_blank').focus();
+			else if (id == "Brazil")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-LENOVO-GRANDE-PR-MIO-DE-S-O-PAULO-2024-f323b1dc01f74d2c9f4a4c4353177758?pvs=4", '_blank').focus();
+			else if (id == "Las Vegas")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-HEINEKEN-SILVER-LAS-VEGAS-GRAND-PRIX-2024-af6f55c98d2541119ede71d43835f688?pvs=4", '_blank').focus();
+			else if (id == "Qatar")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-QATAR-AIRWAYS-QATAR-GRAND-PRIX-2024-df30e44e8e3c4c078a1e9ce6425e8d4c?pvs=4", '_blank').focus();
+			else if (id == "Abu Dhabi")
+				window.open("https://www.notion.so/secondbrain-mariana/FORMULA-1-ETIHAD-AIRWAYS-ABU-DHABI-GRAND-PRIX-2024-4ab17e723b3b422eadf3fdf9977ddd09?pvs=4", '_blank').focus();	
+
+		}
+	</script>
+
+
+</body>
+
+</html>
