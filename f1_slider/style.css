@@ -58,8 +58,22 @@
 }
 
 .hero-slider .carousel-cell .info-container button{
+    background: transparent;
+    border-color: transparent;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.custom-link {
     padding: 12px 20px;
     background: transparent;
+    text-decoration: none;
+    font-weight: bold;
     border: 1px solid #fff;
     color: #ffffff;
     text-transform: uppercase;
@@ -71,22 +85,9 @@
     transition: all 0.3s ease;
 }
 
-.custom-link {
-    color: #FFF; /* Text color for the link */
-    text-decoration: none; /* Remove underline */
-    font-family: 'Montserrat', sans-serif; /* Font family */
-    font-size: 12px; /* Font size */
-}
-
 .custom-link:hover {
     color: #000000; /* Change text color on hover */
     background: #ffffff;
-}
-
-.hero-slider .carousel-cell .info-container button:hover{
-    background: #ffffff;
-    color: #000000;
-    font-weight: bold;
 }
 
 .hero-slider .flickity-prev-next-button{
