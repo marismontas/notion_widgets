@@ -1,5 +1,5 @@
-Original code for the Navigation Bar:
+# Navigation Bar:
   - navigation_menu.html
 
-Instrctions:
+## Instrctions:
 Duplicate the navigation_menu.html and make the necessary changes
